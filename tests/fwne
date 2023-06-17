@@ -1,0 +1,2 @@
+fwne: file with no extension
+purpose: test `check_file` function to make sure it works

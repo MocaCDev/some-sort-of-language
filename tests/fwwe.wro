@@ -1,0 +1,2 @@
+fwwe: file with wrong extension
+purpose: test `check_file` function to make sure it workst

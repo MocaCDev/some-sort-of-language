@@ -1,0 +1,2 @@
+fwtle: file with too long extension
+purpose: test `check_file` function to make sure it works

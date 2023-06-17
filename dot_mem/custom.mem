@@ -1,0 +1,16 @@
+
+
+program_size: 0x200 B
+stack_access: true
+sections:
+{
+    variable my_age: {
+        store_in: data,
+        type: byte,
+        // `byteArray` - creates a byte array with a predetermined size. User has to manually assign each
+        //               element a value.
+        // `emptyArray` - creates a byte array with all elements initialized to zero
+        // `none` - the predefined variable will just exist with no prior memory set aside for it
+        preset_data: byteArray(12, {'H', 'E', 'L', 'L', 'O', ' ', 'W', 'O', 'R', 'L', 'D', '\0'})
+    }
+}

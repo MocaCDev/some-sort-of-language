@@ -1,0 +1,3 @@
+#incmem "custom.mem"
+int a
+print 0xAB
